@@ -1,7 +1,7 @@
 
 body {
   padding-top: 90px;
-  background-color: #b7b3b3;
+  background-color: #fff;
 }
 .sub-header {
   padding-bottom: 10px;
@@ -10,7 +10,17 @@ body {
 
 .navbar-fixed-top {
   border: 0;
+  background-color: #50473e;
 }
+
+.navbar .navbar-inverse .navbar-fixed-top {
+  background-color: #50473e;
+}
+
+a .navbar-header {
+  float: left;
+}
+
 .sidebar {
   display: none;
 }
@@ -81,12 +91,12 @@ body {
 .positionMenu {
   border-top:4px solid #fff;
   border-right: 4px solid #fff;
-  background-color: #2a323a;
+  background-color: #a48769;
   border-top-right-radius: 20px;
 }
 
 .navbar-fixed-top {
-  background-color: #171a1d;
+  background-color: #50473e;
   border-bottom: 3px solid #fff;
 }
 
@@ -94,7 +104,13 @@ body {
 .nav-sidebar > .active > a:hover,
 .nav-sidebar > .active > a:focus {
   color: #fff;
-  background-color: #475869;
+  background-color: #50473e;
+  font-weight: bold;
+}
+
+.custom-sidebar li>a:hover  {
+  color: #fff;
+  background-color: #a5a28b;
 }
 
 a {
@@ -109,13 +125,32 @@ a {
   border-bottom-left-radius: 0px;
 }
 
-.dropdown-menu {
+.custom-dropdown {
     position: relative;
     width: 100%;
-    background-color: #657484;
+    background-color: #666455;
     margin-bottom: 10px;
 }
 
-.dropdown-menu>li>a {
+.custom-dropdown>li>a {
     color: #fff;
+}
+
+.custom-sidebar > .custom-toggle > a:hover{
+  color: #50473e;
+}
+
+.custom-dropdown>li>a hover {
+    color: #fff;
+    background-color: #50473e;
+}
+
+.custom-button {
+  background-color: #50473e;
+  border: 1px solid #605c57;
+}
+
+.custom-button:hover {
+  background-color: #a48769;
+  border: 1px solid #605c57;
 }
