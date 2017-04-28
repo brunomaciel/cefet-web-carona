@@ -109,7 +109,8 @@ a .navbar-header {
 }
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-  background-color: #000;
+  background-color: #fff;
+  color: #50473e;
 }
 
 .custom-sidebar li>a:hover  {
