@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Tags: The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--Mobile first; usuários não podem fazer zoom-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="author" content="Ana Cláudia Gomes e Bruno Maciel">
+
+    <title>100 Carro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico"/>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/principal.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+  </head>
+  <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">
+                <img alt="100Carro" src="imagens/100-carro.png" class="img-responsive">
+              </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <p class="navbar-text container-fluid"><b>100 CARRO</b><br/>Sistema de Caronas CEFET-MG</p>
+            </div>
+          </div>
+        </nav>
+
+        <main class="container-fluid">
+          <div class="row">
+            <aside class="col-md-3 col-md-2 sidebar positionMenu">
+              <ul class="nav nav-sidebar custom-sidebar">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li class="active"><a href="sobre.html">Sobre o 100 Carro</a></li>
+                <li><a href="perfil.html">Meu Perfil</a></li>
+              </ul>
+              <ul class="nav nav-sidebar custom-sidebar">
+                <li role="presentation" class="dropdown">
+                 <a class="dropdown-toggle custom-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                   Carona <span class="caret"></span>
+                 </a>
+                 <ul class="dropdown-menu custom-dropdown">
+                   <li><a href="oferecercarona.html">Ofertar Carona</a></li>
+                   <li><a href="consultarcarona.html">Consultar Caronas Ofertadas</a></li>
+                   <li><a href="minhascaronas.html">Minhas Caronas</a></li>
+                 </ul>
+               </li>
+               <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle custom-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  Ranking <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu custom-dropdown">
+                  <li><a href="avaliarusuario.html">Avaliar Usuários</a></li>
+                  <li><a href="ranking.html">Verificar Ranking</a></li>
+                </ul>
+              </li>
+              </ul>
+              <ul class="nav nav-sidebar custom-sidebar">
+                <li><a href="http://www.cefetmg.br/">CEFET-MG</a></li>
+                <li><a href="termo.html">Termos de Condições de Uso</a></li>
+                <li><a href="contato.html">Contato</a></li>
+              </ul>
+            </aside>
+
+            <section class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+              <div class="jumbotron">
+                <h1>Olá!</h1>
+                <p>Imagine um sistema onde você pode consultar todas as caronas que estão disponíveis para a sua aula de 13:00 a tarde no Campus I?
+                   Ou então, descobrir quais pessoas estão oferecendo carona para você voltar <i>de graça</i> para seu bairro após o término da
+                   sua aula da noite?</p>
+                <p> <mark class="well well-sm">Bem-vindo(a), este é o 100 Carro, o novo sistema de caronas do CEFET-MG.</mark></p>
+                <p>Aqui você, pessoa de bom coração, pode cadastrar as caronas que deseja ofertar, podendo informar a cidade, bairro ou mesmo o campus
+                   do qual você está vindo ou para o qual você está indo. Agora, se você está indo, por exemplo, do Campus II para o centro, também é
+                   possível adicionar o Campus I como ponto intermediário na sua rota. Assim, pessoas que querem navegar entre esses campus no horário
+                   que você está saindo, também poderão encontrar a sua carona e entrar em contato com você.</p>
+                <p>Já você, caro sem carro, poderá consultar as caronas que batem com o seu trajeito e horário. E, caso você não encontre nenhuma rota
+                   compatível, deixe o seu pedido registrado aqui no sistema. Quem sabe algum navegante de passagem acabe vendo o seu pedido e resolva
+                   atendê-lo? Mas cuidado sempre com os horários, locais e compromissos que você acertar com seu caronante, uma vez que você será avaliado
+                   por ele e essas informações ficarão disponíveis em um ranking. E não se esqueça: você também deverá avaliá-lo! </p>
+                <p> Sugestões ou dúvidas de como utilizar o sistema? Por favor, fale conosco através da seção Contato. </p>
+                <p> <b> Dirija Seguro e Boa Carona! </b> </p>
+              </div>
+            </section>
+
+          </main>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

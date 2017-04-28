@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Tags: The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--Mobile first; usuários não podem fazer zoom-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="author" content="Ana Cláudia Gomes e Bruno Maciel">
+
+    <title>100 Carro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico"/>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/principal.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+  </head>
+  <body>
+
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="index.html">
+                <img alt="100Carro" src="imagens/100-carro.png" class="img-responsive">
+              </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <p class="navbar-text container-fluid"><b>100 CARRO</b><br/>Sistema de Caronas CEFET-MG</p>
+            </div>
+          </div>
+        </nav>
+
+        <main class="container-fluid">
+          <div class="row">
+            <aside class="col-md-3 col-md-2 sidebar positionMenu">
+              <ul class="nav nav-sidebar custom-sidebar">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre o 100 Carro</a></li>
+                <li><a href="perfil.html">Meu Perfil</a></li>
+              </ul>
+              <ul class="nav nav-sidebar custom-sidebar">
+                <li role="presentation" class="dropdown">
+                 <a class="dropdown-toggle custom-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                   Carona <span class="caret"></span>
+                 </a>
+                 <ul class="dropdown-menu custom-dropdown">
+                   <li><a href="oferecercarona.html">Ofertar Carona</a></li>
+                   <li><a href="consultarcarona.html">Consultar Caronas Ofertadas</a></li>
+                   <li><a href="minhascaronas.html">Minhas Caronas</a></li>
+                 </ul>
+               </li>
+               <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle custom-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  Ranking <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu custom-dropdown">
+                  <li><a href="avaliarusuario.html">Avaliar Usuários</a></li>
+                  <li class="active"><a href="ranking.html">Verificar Ranking</a></li>
+                </ul>
+              </li>
+              </ul>
+              <ul class="nav nav-sidebar custom-sidebar">
+                <li><a href="http://www.cefetmg.br/">CEFET-MG</a></li>
+                <li><a href="termo.html">Termos de Condições de Uso</a></li>
+                <li><a href="contato.html">Contato</a></li>
+              </ul>
+            </aside>
+
+            <section class="col-md-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+              <div class="jumbotron">
+                <h1>Bem-vindo!</h1>
+                <p>Este é o 100 Carro, o novo sistema de caronas do CEFET-MG.</p>
+                <p>O objetivo do nosso projeto é desenvolver um sistema que procura resolver um
+                  problema comum entre docentes e discentes do CEFET-MG - as caronas. Se alguém tem
+                  aula ou trabalha em outro campus, ou só quer ir para casa depois de um dia cheio,
+                  mas o intercampi está lotado e a passagem está cara, por que não tentar conseguir
+                  uma carona? O sistema permitirá o cadastro de locais de origem e destino e os
+                  horários disponíveis de quem vai oferecer a carona. Também será possível adicionar
+                  pontos de parada intermediários, como algum campus. Assim, quem estiver procurando
+                  uma carona, poderá consultar se existe algum trajeto correspondente à sua necessidade
+                  e, caso não encontre, o caroneiro pode deixar um pedido em uma lista de requisições
+                  de carona não atendidas.</p>
+                <p><a class="btn btn-primary btn-lg custom-button" href="sobre.html" role="button">Saiba Mais</a></p>
+              </div>
+            </section>
+
+          </main>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
