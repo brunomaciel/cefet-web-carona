@@ -18,6 +18,7 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/principal.css" rel="stylesheet">
+    <link href="css/consultacarona.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
@@ -73,23 +74,153 @@
               </ul>
             </aside>
 
-            <section class="col-md-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-              <div class="jumbotron">
-                <h1>Oferecer Carona</h1>
-                <p>Este é o 100 Carro, o novo sistema de caronas do CEFET-MG.</p>
-                <p>O objetivo do nosso projeto é desenvolver um sistema que procura resolver um
-                  problema comum entre docentes e discentes do CEFET-MG - as caronas. Se alguém tem
-                  aula ou trabalha em outro campus, ou só quer ir para casa depois de um dia cheio,
-                  mas o intercampi está lotado e a passagem está cara, por que não tentar conseguir
-                  uma carona? O sistema permitirá o cadastro de locais de origem e destino e os
-                  horários disponíveis de quem vai oferecer a carona. Também será possível adicionar
-                  pontos de parada intermediários, como algum campus. Assim, quem estiver procurando
-                  uma carona, poderá consultar se existe algum trajeto correspondente à sua necessidade
-                  e, caso não encontre, o caroneiro pode deixar um pedido em uma lista de requisições
-                  de carona não atendidas.</p>
-                <p><a class="btn btn-primary btn-lg custom-button" href="sobre.html" role="button">Saiba Mais</a></p>
-              </div>
-            </section>
+            <article class="col-sm-offset-3 col-md-10 col-md-offset-2 main">
+              <h3 class="titulo"> CONSULTAR CARONA </h3>
+
+              <form>
+                <div class="panel panel-default" id="panelIda">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">IDA</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="row linhaPanel">
+                      <div class="col-sm-3">
+                        <label for="Cidade">Cidade:</label>
+                        <select class="form-control" id="cidadeIda">
+                          <option>Belo Horizonte</option>
+                          <option>Contagem</option>
+                          <option>Betim</option>
+                          <option>Sabará</option>
+                          <option>Nova Lima</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-3">
+                        <label for="Bairro">Bairro:</label>
+                        <select class="form-control" id="bairroIda">
+                          <option>Gameleira</option>
+                          <option>Nova Suíça</option>
+                          <option>Centro</option>
+                          <option>Savassi</option>
+                          <option>Santo Agostinho</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-3">
+                        <label for="Campus">Campus:</label>
+                        <select class="form-control" id="campusIda">
+                          <option>Campus I</option>
+                          <option>Campus II</option>
+                          <option>Campus VI</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-2">
+                        <label for="Cidade">Hora:</label>
+                        <input type="datetime" class="form-control" id="horaIda" placeholder="00:00">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-11">
+                        <label for="Cidade">Dias da Semana:</label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="segundaIda" value="segunda"> Segunda
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="tercaIda" value="terca"> Terça
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="quartaIda" value="quarta"> Quarta
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="quintaIda" value="quinta"> Quinta
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="sextaIda" value="sexta"> Sexta
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="sabadoIda" value="sabado"> Sábado
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default" id="panelVolta">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">VOLTA</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="row linhaPanel">
+                      <div class="col-sm-3">
+                        <label for="Cidade">Cidade:</label>
+                        <select class="form-control" id="cidadeIda">
+                          <option>Belo Horizonte</option>
+                          <option>Contagem</option>
+                          <option>Betim</option>
+                          <option>Sabará</option>
+                          <option>Nova Lima</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-3">
+                        <label for="Bairro">Bairro:</label>
+                        <select class="form-control" id="bairroIda">
+                          <option>Gameleira</option>
+                          <option>Nova Suíça</option>
+                          <option>Centro</option>
+                          <option>Savassi</option>
+                          <option>Santo Agostinho</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-3">
+                        <label for="Campus">Campus:</label>
+                        <select class="form-control" id="campusIda">
+                          <option>Campus I</option>
+                          <option>Campus II</option>
+                          <option>Campus VI</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-2">
+                        <label for="Cidade">Hora:</label>
+                        <input type="datetime" class="form-control" id="horaIda" placeholder="00:00">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-sm-11">
+                        <label for="Cidade">Dias da Semana:</label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="segundaIda" value="segunda"> Segunda
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="tercaIda" value="terca"> Terça
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="quartaIda" value="quarta"> Quarta
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="quintaIda" value="quinta"> Quinta
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="sextaIda" value="sexta"> Sexta
+                        </label>
+                        <label class="checkbox-inline diassemana">
+                          <input type="checkbox" id="sabadoIda" value="sabado"> Sábado
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="botao">
+                  <button type="submit" class="btn btn-primary btn-lg custom-button tamFixo" id="btnconsultar">Consultar</button>
+                  <button type="reset" class="btn btn-primary btn-lg custom-button tamFixo" id="btnlimpar">Limpar</button>
+                </div>
+              </form>
+
+
+
+            </article>
+
+
 
           </main>
 
