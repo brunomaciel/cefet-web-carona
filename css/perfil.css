@@ -24,3 +24,24 @@
  font-size: 14px;
  padding: 8px;
 }
+
+table.fixa {
+    display: table;
+    width: 100%;
+}
+table.fixa thead, table.fixa tbody {
+    float: left;
+    width: 100%;
+}
+table.fixa tbody {
+    overflow: auto;
+    height: 150px;
+}
+table.fixa tr {
+    width: 100%;
+    display: table;
+    text-align: left;
+}
+table.fixa th, table.fixa td {
+    width: 30%;
+}
