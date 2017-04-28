@@ -54,6 +54,7 @@
                  <ul class="dropdown-menu custom-dropdown">
                    <li><a href="oferecercarona.html">Ofertar Carona</a></li>
                    <li class="active"><a href="consultarcarona.html">Consultar Caronas Ofertadas</a></li>
+                   <li><a href="caronaspedidas.html">Consultar Caronas Solicitadas</a></li>
                    <li><a href="minhascaronas.html">Minhas Caronas</a></li>
                  </ul>
                </li>
@@ -194,28 +195,64 @@
                 </div>
               </form>
 
-              <table class="table table-striped tabela-resultado visivel" id="tabelaResultado">
-                <thead>
-                  <tr>
-                    <th>Header content 1</th>
-                    <th>Header content 2</th>
-                  </tr>
-                </thead>
-                <tfoot>
-                  <tr>
-                    <td>Footer content 1</td>
-                    <td>Footer content 2</td>
-                  </tr>
-                </tfoot>
-                <tbody>
-                  <tr>
-                    <td>Body content 1</td>
-                    <td>Body content 2</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div class="tabela" id="divTabela">
+                <table class="table table-striped tabela-resultado" id="tabelaResultado">
+                  <thead>
+                    <tr>
+                      <th>Usuário</th>
+                      <th>Telefone</th>
+                      <th>Local de Saída</th>
+                      <th>Horário de Saída</th>
+                      <th>Local de Chegada</th>
+                      <th>Horário Previsto de Chegada</th>
+                      <th>Dias da Semana </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Ana Cláudia Gomes</td>
+                      <td>
+                        <button type="button" class="btn btn-primary" id="btnMostrarTelefone" onclick="window.alert('(31)99853-4578')">
+                          <span class="glyphicon glyphicon-earphone"></span>
+                        </button> <!-- ON CLICK PROVISÓRIO, VAI PERGUNTAR SE QUER MESMO VER O TELEFONE, SE SIM, EXIBE O NÚMERO E SALVA A SOLICITAÇÃO-->
+                      </td>
+                      <td>Campus II</td>
+                      <td>12:30</td>
+                      <td>Campus I</td>
+                      <td>12:50</td>
+                      <td>2ª,3ª,4ª,6ª</td>
+                    </tr>
+                    <tr>
+                      <td>Bruno Marques Maciel</td>
+                      <td>
+                        <button type="button" class="btn btn-primary" id="btnMostrarTelefone" onclick="window.alert('(31)99922-2760')">
+                          <span class="glyphicon glyphicon-earphone"></span>
+                        </button>
+                      </td>
+                      <td>Contagem, Jardim Riacho das Pedras</td>
+                      <td>06:30</td>
+                      <td>Campus II</td>
+                      <td>06:50</td>
+                      <td>2ª,3ª,4ª,5ª,6ª</td>
+                    </tr>
+                    <tr>
+                      <td>Zé Gotinha</td>
+                      <td>
+                        <button type="button" class="btn btn-primary" id="btnMostrarTelefone" onclick="window.alert('(31)91324-5678')">
+                          <span class="glyphicon glyphicon-earphone"></span>
+                        </button>
+                      </td>
+                      <td>Contagem, Centro</td>
+                      <td>15:00</td>
+                      <td>Campus II</td>
+                      <td>18:50</td>
+                      <td>Sábado</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
-              <div id="semResultado" class="sem-resultado">
+              <div id="semResultado" class="sem-resultado "><!--ocultar-->
                   <p>NENHUM RESULTADO ENCONTRADO!</p>
                   <p><a class="btn btn-primary btn-lg custom-button tamFixo maior" href="pedircarona.html" role="button" id="btnPedirNovaCarona">Pedir Nova Carona</a></p>
               </div>

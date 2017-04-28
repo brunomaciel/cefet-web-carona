@@ -155,8 +155,56 @@
                         </select>
                       </div>
                       <div class="col-sm-2">
-                        <label for="Cidade">Hora:</label>
+                        <label for="Cidade">Hora Estimada:</label>
                         <input type="datetime" class="form-control" id="horaIda" placeholder="00:00">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default" id="panelIntermediario">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">PONTO INTERMEDIÁRIO 1</h3>
+                  </div>
+                  <div class="panel-body">
+                    <div class="row linhaPanel">
+                      <div class="col-sm-3">
+                        <label for="Cidade">Cidade:</label>
+                        <select class="form-control" id="cidadeIda">
+                          <option>Belo Horizonte</option>
+                          <option>Contagem</option>
+                          <option>Betim</option>
+                          <option>Sabará</option>
+                          <option>Nova Lima</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-3">
+                        <label for="Bairro">Bairro:</label>
+                        <select class="form-control" id="bairroIda">
+                          <option>Gameleira</option>
+                          <option>Nova Suíça</option>
+                          <option>Centro</option>
+                          <option>Savassi</option>
+                          <option>Santo Agostinho</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-3">
+                        <label for="Campus">Campus:</label>
+                        <select class="form-control" id="campusIda">
+                          <option>Campus I</option>
+                          <option>Campus II</option>
+                          <option>Campus VI</option>
+                        </select>
+                      </div>
+                      <div class="col-sm-1">
+                        <button type="button" class="btn btn-primary btn-lg custom-button tamFixo pequeno" id="btnsalvarintermediario">
+                          <span class="glyphicon glyphicon-floppy-disk"></span>
+                        </button>
+                      </div>
+                      <div class="col-sm-1">
+                        <button type="button" class="btn btn-primary btn-lg custom-button tamFixo pequeno" id="btnadicionarintermediario" disabled>
+                          <span class="glyphicon glyphicon-plus"></span>
+                        </button>
                       </div>
                     </div>
                   </div>
@@ -191,6 +239,7 @@
                 <div class="botao">
                   <button type="submit" class="btn btn-primary btn-lg custom-button tamFixo" id="btnenviar">Enviar</button>
                   <button type="reset" class="btn btn-primary btn-lg custom-button tamFixo" id="btnlimpar">Limpar</button>
+                  <button type="submit" class="btn btn-primary btn-lg custom-button tamFixo" id="btnexcluir" disabled>Excluir</button>
                 </div>
               </form>
 
