@@ -33,12 +33,16 @@
   margin-top: 10px;
 }
 
-.sem-resultado {
-  display: none;
+.tamFixo.pequeno {
+  width: 70px;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 5px;
 }
 
-.sem-resultado.visivel {
-  display: block;
+
+.sem-resultado {
   width: 100%;
   background-color: white;
   color: #a94442;
@@ -56,12 +60,17 @@
   border-color: #ddd;
 }
 
-.tabela-resultado {
+.ocultar {
   display: none;
 }
 
-.tabela-resultado.visivel {
-  display: block;
+.tabela {
+  margin-top: 50px;
+  font-family: sans-serif;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  border-color: #ddd;
   width: 100%;
 }
 
