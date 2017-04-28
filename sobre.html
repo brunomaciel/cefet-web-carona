@@ -9,9 +9,10 @@
     <!--Mobile first; usuários não podem fazer zoom-->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <meta name="author" content="Ana Cláudia Gomes e Bruno Maciel"
-    <link rel="icon" href="images/">
-    <title>Sobre o 100Carro</title>
+    <meta name="author" content="Ana Cláudia Gomes e Bruno Maciel">
+
+    <title>100 Carro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico"/>
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,40 +28,48 @@
           <div class="container-fluid">
             <div class="navbar-header">
               <a class="navbar-brand" href="index.html">
-                <img alt="100Carro" src="img/">
+                <img alt="100Carro" src="imagens/100-carro.png" class="img-responsive">
               </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-              <p class="navbar-text"><b>100 CARRO</b><br/>Sistema de Caronas CEFET-MG</p>
+              <p class="navbar-text container-fluid"><b>100 CARRO</b><br/>Sistema de Caronas CEFET-MG</p>
             </div>
           </div>
         </nav>
 
         <main class="container-fluid">
           <div class="row">
-            <aside class="col-sm-3 col-md-2 sidebar positionMenu">
-              <ul class="nav nav-sidebar">
-                <li class="active"><a href="index.html">Página Inicial</a></li>
-                <li><a href="#">Sobre o 100 Carro</a></li>
-                <li><a href="">Meu Perfil</a></li>
+            <aside class="col-md-3 col-md-2 sidebar positionMenu">
+              <ul class="nav nav-sidebar custom-sidebar">
+                <li><a href="index.html">Página Inicial</a></li>
+                <li class="active"><a href="sobre.html">Sobre o 100 Carro</a></li>
+                <li><a href="perfil.html">Meu Perfil</a></li>
               </ul>
-              <ul class="nav nav-sidebar">
+              <ul class="nav nav-sidebar custom-sidebar">
                 <li role="presentation" class="dropdown">
-                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                 <a class="dropdown-toggle custom-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                    Carona <span class="caret"></span>
                  </a>
-                 <ul class="dropdown-menu">
-                   <li><a href="">Ofertar Carona</a></li>
-                   <li><a href="">Consultar Caronas Ofertadas</a></li>
-                   <li><a href="">Pedir Carona Não Oferecida</a></li>
+                 <ul class="dropdown-menu custom-dropdown">
+                   <li><a href="oferecercarona.html">Ofertar Carona</a></li>
+                   <li><a href="consultarcarona.html">Consultar Caronas Ofertadas</a></li>
+                   <li><a href="minhascaronas.html">Minhas Caronas</a></li>
                  </ul>
                </li>
-                <li><a href="">Ranking</a></li>
+               <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle custom-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  Ranking <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu custom-dropdown">
+                  <li><a href="avaliarusuario.html">Avaliar Usuários</a></li>
+                  <li><a href="ranking.html">Verificar Ranking</a></li>
+                </ul>
+              </li>
               </ul>
-              <ul class="nav nav-sidebar">
+              <ul class="nav nav-sidebar custom-sidebar">
                 <li><a href="http://www.cefetmg.br/">CEFET-MG</a></li>
-                <li><a href="">Termos de Condições de Uso</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="termo.html">Termos de Condições de Uso</a></li>
+                <li><a href="contato.html">Contato</a></li>
               </ul>
             </aside>
 
