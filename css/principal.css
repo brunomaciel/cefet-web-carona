@@ -152,3 +152,7 @@ a {
   background-color: #a48769;
   border: 1px solid #605c57;
 }
+
+.dropdown-menu>.active>a {
+  background-color: #50473e;
+}
