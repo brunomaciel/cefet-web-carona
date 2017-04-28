@@ -17,7 +17,9 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="css/carona.css" rel="stylesheet">
     <link href="css/principal.css" rel="stylesheet">
+
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
@@ -68,28 +70,49 @@
               </ul>
               <ul class="nav nav-sidebar custom-sidebar">
                 <li><a href="http://www.cefetmg.br/">CEFET-MG</a></li>
-                <li><a href="termo.html">Termos de Condições de Uso</a></li>
+                <li><a href="termo.html">Termos e Condições de Uso</a></li>
                 <li><a href="contato.html">Contato</a></li>
               </ul>
             </aside>
 
-            <section class="col-md-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-              <div class="jumbotron">
-                <h1>Oferecer Carona</h1>
-                <p>Este é o 100 Carro, o novo sistema de caronas do CEFET-MG.</p>
-                <p>O objetivo do nosso projeto é desenvolver um sistema que procura resolver um
-                  problema comum entre docentes e discentes do CEFET-MG - as caronas. Se alguém tem
-                  aula ou trabalha em outro campus, ou só quer ir para casa depois de um dia cheio,
-                  mas o intercampi está lotado e a passagem está cara, por que não tentar conseguir
-                  uma carona? O sistema permitirá o cadastro de locais de origem e destino e os
-                  horários disponíveis de quem vai oferecer a carona. Também será possível adicionar
-                  pontos de parada intermediários, como algum campus. Assim, quem estiver procurando
-                  uma carona, poderá consultar se existe algum trajeto correspondente à sua necessidade
-                  e, caso não encontre, o caroneiro pode deixar um pedido em uma lista de requisições
-                  de carona não atendidas.</p>
-                <p><a class="btn btn-primary btn-lg custom-button" href="sobre.html" role="button">Saiba Mais</a></p>
+            <article class="col-sm-offset-3 col-md-10 col-md-offset-2 main">
+              <h3 class="titulo"> MINHAS CARONAS </h3>
+              <div class="tabela" id="divTabela">
+                <table class="table table-striped tabela-resultado" id="tabelaCaronas">
+                  <thead>
+                    <tr>
+                      <th>Data</th>
+                      <th>Tipo</th>
+                      <th>Origem</th>
+                      <th>Destino</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>15-03-2017</td>
+                      <td>Carona Oferecida</td>
+                      <td>Campus II</td>
+                      <td>Campus I</td>
+                      <td><a href="oferecercarona.html" class="icones-carona" title="Oferecer Carona"><span class="glyphicon glyphicon-map-marker"></span></a></td></td>
+                    </tr>
+                    <tr>
+                      <td>30-03-2017</td>
+                      <td>Carona Pedida</td>
+                      <td>Campus VI</td>
+                      <td>Savassi</td>
+                      <td><a href="pedircarona.html" class="icones-carona" title="Pedir Carona"><span class="glyphicon glyphicon-road"></span></a></td></td>
+                    </tr>
+                    <tr>
+                      <td>05-04-2017</td>
+                      <td>Carona Pedida</td>
+                      <td>Centro</td>
+                      <td>Campus II</td>
+                      <td><a href="pedircarona.html" class="icones-carona" title="Pedir Carona"><span class="glyphicon glyphicon-road"></span></a></td></td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-            </section>
+            </article>
 
           </main>
 

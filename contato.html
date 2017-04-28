@@ -68,28 +68,39 @@
               </ul>
               <ul class="nav nav-sidebar custom-sidebar">
                 <li><a href="http://www.cefetmg.br/">CEFET-MG</a></li>
-                <li><a href="termo.html">Termos de Condições de Uso</a></li>
+                <li><a href="termo.html">Termos e Condições de Uso</a></li>
                 <li class="active"><a href="contato.html">Contato</a></li>
               </ul>
             </aside>
 
-            <section class="col-md-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-              <div class="jumbotron">
-                <h1>Bem-vindo!</h1>
-                <p>Este é o 100 Carro, o novo sistema de caronas do CEFET-MG.</p>
-                <p>O objetivo do nosso projeto é desenvolver um sistema que procura resolver um
-                  problema comum entre docentes e discentes do CEFET-MG - as caronas. Se alguém tem
-                  aula ou trabalha em outro campus, ou só quer ir para casa depois de um dia cheio,
-                  mas o intercampi está lotado e a passagem está cara, por que não tentar conseguir
-                  uma carona? O sistema permitirá o cadastro de locais de origem e destino e os
-                  horários disponíveis de quem vai oferecer a carona. Também será possível adicionar
-                  pontos de parada intermediários, como algum campus. Assim, quem estiver procurando
-                  uma carona, poderá consultar se existe algum trajeto correspondente à sua necessidade
-                  e, caso não encontre, o caroneiro pode deixar um pedido em uma lista de requisições
-                  de carona não atendidas.</p>
-                <p><a class="btn btn-primary btn-lg custom-button" href="sobre.html" role="button">Saiba Mais</a></p>
+            <article class="col-sm-offset-3 col-md-10 col-md-offset-2 main">
+              <h3 class="titulo"> CONTATO </h3>
+                <p class="texto-contato">Encontrou alguma coisa errada no 100Carro? Tem alguma dúvida? Entre em contato!</p>
+                <form action="contato.html" method="POST">
+                    <div class="form-group">
+                      <label for="Nome">Nome: </label>
+                      <input type="text" class="form-control" id="NomeContato" placeholder="José da Silva">
+                    </div>
+                    <div class="form-group">
+                      <label for="Email">E-mail: </label>
+                      <input type="email" class="form-control" id="EmailContato" value="seuemail@email.com (exemplo)">
+                    </div>
+                    <div class="form-group">
+                      <label for="Mensagem">Mensagem: </label>
+                      <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="clear"></div>
+
+
+                  <button class="btn btn-lg btn-primary custom-button" type="submit">Enviar</button>
+
+
+                  </form>
+
+
+
               </div>
-            </section>
+            </article>
 
           </main>
 

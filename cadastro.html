@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap Tags: The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!--Mobile first; usuários não podem fazer zoom-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="author" content="Ana Cláudia Gomes e Bruno Maciel"
+    <link rel="icon" href="images/">
+    <title>Cadastro - 100Carro</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico"/>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/sigin.css" rel="stylesheet">
+    <link href="css/perfil.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+        <main class="container">
+          <h3 class="titulo"> CADASTRO </h3>
+
+          <img alt="fotoperfil" src="imagens/default-user-image.png" class="img-responsive img-circle img-perfil">
+          <p class="botao-perfil"><a class="btn btn-primary btn-lg custom-button profile-button" href="#" role="button">Adicionar Foto</a></p>
+
+
+            <form class="form-signin" action="cadastro.html" method="POST">
+                <div class="form-group">
+                  <label for="Nome">Nome: </label>
+                  <input type="text" class="form-control" id="NomePerfil" placeholder="José da Silva">
+                </div>
+                <div class="form-signin">
+                  <label for="Email">E-mail: </label>
+                  <input type="email" class="form-control" id="EmailPerfil"  placeholder="seuemail@email.com">
+                </div>
+                <div class="form-signin">
+                  <label for="MatriculaSiape">Matrícula/SIAPE: </label>
+                  <input type="text" class="form-control" id="MatriculaSiapePerfil" placeholder="201512045568">
+                </div>
+                <div class="form-signin">
+                  <label for="Telefone">Telefone: </label>
+                  <input type="tel" pattern="[\(]\d{2}[\)]\d{5}[\-]\d{4}" class="form-control" id="TelefonePerfil" placeholder="(55)55555-5555">
+                </div>
+                <div class="form-signin">
+                  <label for="CargoPerfil">Cargo:</label>
+                  <select class="form-control" id="CargoPerfil">
+                    <option>Aluno</option>
+                    <option>Professor</option>
+                    <option>Técnico-Administrativo</option>
+                  </select>
+                </div>
+                <div class="form-signin">
+                  <label for="Senha">Senha:</label>
+                  <input type="password" class="form-control" id="SenhaPerfil" placeholder="Senha">
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="botao-cadastro">
+                    <a class="btn btn-primary btn-lg custom-button profile-button2" href="cadastro.html" role="button">Salvar Dados</a>
+                </div>
+              </form>
+        </main>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

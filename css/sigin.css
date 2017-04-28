@@ -5,7 +5,7 @@ body {
   height: 100%;
   padding-top: auto;
   padding-bottom: auto;
-  background-color: #657d8c;
+  background-color: #adabab;
 }
 
 .container {
@@ -47,4 +47,53 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.custom-login {
+  background-color: #50473e;
+  border: 1px solid #605c57;
+}
+
+.custom-login:hover {
+  background-color: #a48769;
+  border: 1px solid #605c57;
+}
+
+.titulo {
+  text-align: center;
+  color: #50473e;
+  margin-bottom: 30px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+
+.signup {
+  text-align: center;
+}
+
+.signup a {
+  color: #50473e;
+  text-decoration: underline;
+}
+
+.signup a:hover {
+  color: #fff;
+}
+
+.clear {
+  clear: both;
+}
+
+.custom-button {
+  background-color: #50473e;
+  border: 1px solid #605c57;
+}
+
+.custom-button:hover {
+  background-color: #a48769;
+  border: 1px solid #605c57;
+}
+
+.botao-cadastro {
+  margin: 5px auto;
+  text-align: center;
 }

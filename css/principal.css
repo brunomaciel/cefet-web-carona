@@ -160,11 +160,36 @@ a {
 }
 
 
-.dropdown-menu>.active>a {
-  background-color: #50473e;
-  color: #fff;
+.dropdown-menu>.active>a {4  color: #fff;
 }
 
 .clear {
   clear: both;
+}
+
+.titulo {
+  text-align: center;
+  color: #50473e;
+  margin-bottom: 30px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+span {
+  font-style: italic;
+}
+
+.texto-contato {
+  text-align: center;
+}
+
+.icones-carona {
+  color: #000;
+}
+
+.icones-carona hover{
+  color: #2b8c0b;
 }
