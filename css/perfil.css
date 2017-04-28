@@ -1,0 +1,26 @@
+.img-perfil {
+  max-width: 20%;
+  margin: auto;
+}
+
+.profile-button {
+  font-size: 11px;
+  padding: 8px;
+}
+
+.botao-perfil {
+  margin: 5px auto;
+  text-align: center;
+}
+
+.titulo {
+  text-align: center;
+  color: #50473e;
+  margin-bottom: 30px;
+  text-shadow: 0.5px 1px 0.5px black;
+}
+
+.profile-button2 {
+ font-size: 14px;
+ padding: 8px;
+}

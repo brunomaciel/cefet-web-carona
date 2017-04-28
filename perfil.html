@@ -16,7 +16,7 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/perfil.css" rel="stylesheet">
     <link href="css/principal.css" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
@@ -73,21 +73,47 @@
               </ul>
             </aside>
 
-            <section class="col-md-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-              <div class="jumbotron">
-                <h1>Olá!</h1>
-                <p>Este é o 100 Carro, o novo sistema de caronas do CEFET-MG.</p>
-                <p>O objetivo do nosso projeto é desenvolver um sistema que procura resolver um
-                  problema comum entre docentes e discentes do CEFET-MG - as caronas. Se alguém tem
-                  aula ou trabalha em outro campus, ou só quer ir para casa depois de um dia cheio,
-                  mas o intercampi está lotado e a passagem está cara, por que não tentar conseguir
-                  uma carona? O sistema permitirá o cadastro de locais de origem e destino e os
-                  horários disponíveis de quem vai oferecer a carona. Também será possível adicionar
-                  pontos de parada intermediários, como algum campus. Assim, quem estiver procurando
-                  uma carona, poderá consultar se existe algum trajeto correspondente à sua necessidade
-                  e, caso não encontre, o caroneiro pode deixar um pedido em uma lista de requisições
-                  de carona não atendidas.</p>
-                <p><a class="btn btn-primary btn-lg custom-button" href="sobre.html" role="button">Saiba Mais</a></p>
+            <article class="col-sm-offset-3 col-md-10 col-md-offset-2 main">
+              <h3 class="titulo"> PERFIL </h3>
+                <img alt="fotoperfil" src="imagens/default-user-image.png" class="img-responsive img-circle img-perfil">
+                <p class="botao-perfil"><a class="btn btn-primary btn-lg custom-button profile-button" href="#" role="button">Adicionar Foto</a></p>
+
+                <form>
+                    <div class="form-group">
+                      <label for="Nome">Nome: </label>
+                      <input type="text" class="form-control" id="NomePerfil" placeholder="José da Silva">
+                    </div>
+                    <div class="form-group col-xs-5">
+                      <label for="Email">E-mail: </label>
+                      <input type="email" class="form-control" id="EmailPerfil" readonly="readonly" value="seuemail@email.com (exemplo)">
+                    </div>
+                    <div class="form-group col-xs-5">
+                      <label for="MatriculaSiape">Matrícula/SIAPE: </label>
+                      <input type="number" class="form-control" id="MatriculaSiapePerfil" readonly="readonly" value="201512045568 (exemplo)">
+                    </div>
+                    <div class="form-group col-xs-5">
+                      <label for="Telefone">Telefone: </label>
+                      <input type="tel" pattern="[\(]\d{2}[\)]\d{5}[\-]\d{4}"class="form-control" id="TelefonePerfil" placeholder="(55)55555-5555">
+                    </div>
+                    <div class="form-group col-xs-5">
+                      <label for="CargoPerfil">Cargo:</label>
+                      <select class="form-control" id="CargoPerfil">
+                        <option>Aluno</option>
+                        <option>Professor</option>
+                        <option>Técnico-Administrativo</option>
+                      </select>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div class="botao-perfil">
+                        <a class="btn btn-primary btn-lg custom-button profile-button2" href="cadastro.html" role="button">Editar Dados</a>
+                        <a class="btn btn-primary btn-lg custom-button profile-button2" href="minhascaronas.html" role="button">Minhas Caronas</a>
+                        <a class="btn btn-primary btn-lg custom-button profile-button2" href="login.html" role="button">Logout</a>
+                    </div>
+                  </form>
+
+
+
               </div>
             </section>
 

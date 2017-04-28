@@ -1,3 +1,0 @@
-Marrom escuro: #50473e
-Marrom claro: #a48769
-Amarelo da logo: #fbe006
