@@ -108,6 +108,10 @@ a .navbar-header {
   font-weight: bold;
 }
 
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+  background-color: #000;
+}
+
 .custom-sidebar li>a:hover  {
   color: #fff;
   background-color: #a5a28b;
